@@ -68,7 +68,7 @@ Comparing ProtoElixir 3       10.28 K
 Comparing ExProtobuf 3         3.80 K - 2.71x slower
 ```
 
-# Travis
+# Travis results
 
 You can also check benchmark info in Travis:
 
