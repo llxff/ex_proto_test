@@ -8,7 +8,7 @@ I use [benchee](https://github.com/PragTob/benchee).
 
 ## Protobuf 2
 ```
-$ mix run code/comparing_proto2.exs                                           afomin@MBP-AFOMIN
+$ mix run code/comparing_proto2.exs
 Operating System: macOS"
 CPU Information: Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
 Number of Available Cores: 8
@@ -39,7 +39,7 @@ Comparing ExProtobuf 2         4.69 K - 2.15x slower
 
 ## Protobuf 3
 ```
-$ mix run code/comparing_proto3.exs                                           afomin@MBP-AFOMIN
+$ mix run code/comparing_proto3.exs
 Operating System: macOS"
 CPU Information: Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
 Number of Available Cores: 8
