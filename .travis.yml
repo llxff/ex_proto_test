@@ -1,0 +1,8 @@
+language: elixir
+elixir:
+  - 1.7.0
+otp_release:
+  - 21.1
+script:
+  - mix run code/comparing_proto2.exs
+  - mix run code/comparing_proto3.exs

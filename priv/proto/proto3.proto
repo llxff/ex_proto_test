@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package ProtoTest3;
+
+enum Type1 {
+  TYPE1 = 0;
+  TYPE2 = 1;
+  TYPE3 = 2;
+  TYPE4 = 3;
+  TYPE5 = 4;
+  TYPE6 = 5;
+  TYPE7 = 6;
+}
+
+message Structure1 {
+  uint32 field1 = 1;
+  string field2 = 2;
+  uint32 field3 = 3;
+  string field4 = 4;
+  uint32 field5 = 5;
+  string field6 = 6;
+  uint32 field7 = 7;
+  string field8 = 8;
+  uint32 field9 = 9;
+  string field10 = 10;
+  Type1 field11 = 11;
+}
+
+message Structure2 {
+  uint32 field1 = 1;
+  string field2 = 2;
+  Structure1 field3 = 3;
+  string field4 = 4;
+  uint32 field5 = 5;
+  Structure1 field6 = 6;
+  uint32 field7 = 7;
+  string field8 = 8;
+  Structure1 field9 = 9;
+  string field10 = 10;
+  Type1 field11 = 11;
+}
